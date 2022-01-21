@@ -47,55 +47,6 @@ ul ol {
   list-style: none;
 }
 
-
-/* icons Css  */
-
-.icon {
-  width: 24px;
-  height: 24px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  transition: .2s ease all;
-  display: inline-block;
-}
-
-span.connect_chain_icon {
-  width: 30px;
-  height: 30px;
-  background-image: url("assets/img/icon/connect_chain.svg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  transition: .2s ease all;
-  display: block;
-  cursor: pointer;
-}
-
-span.connect_chain_icon:hover {
-  background-image: url("assets/img/icon/connect_chain_db.svg");
-}
-
-.video_icon {
-  background-image: url("assets/img/icon/video.svg");
-}
-
-.tutorial_links:hover .video_icon {
-  background-image: url("assets/img/icon/video_da.svg");
-}
-
-
-.inf_icon {
-  width: 20px;
-  height: 20px;
-  background-image: url("assets/img/icon/info.svg");
-}
-
-
-.tutorial_links:hover .inf_icon {
-  background-image: url("assets/img/icon/info_da.svg");
-}
-
- /* Icon Css End  */
-
 body.dark_them {
   color: #fff;
   background: #22242F;
@@ -128,7 +79,6 @@ body.dark_them {
   display: flex;
   align-items: center;
   padding: 23px 17px 23px 24px;
-  cursor: pointer;
 }
 
 .bridge_select img.chain {
@@ -139,10 +89,6 @@ body.dark_them {
 img.arrow_down {
   display: block;
   margin-left: auto;
-}
-
-.bridge_select:hover img.arrow_down {
-  filter: brightness(100);
 }
 
 span.connec_chain {
@@ -173,13 +119,8 @@ span.connec_chain {
 .connect_bridge_tutorial> a {margin: 10px 0;}
 
 .tutorial_links {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.tutorial_links .icon {
-  margin-right: 7px;
+  display: block;
+  text-align: center;
 }
 
 .col-g {
