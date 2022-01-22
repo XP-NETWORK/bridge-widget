@@ -134,12 +134,6 @@ return (
 									</div>
 								</div>
 							</div>
-							<div class="nft_fees">
-								<h4 class="col-da">Fees</h4> <h4 class="fwn">0 BNB</h4>
-							</div>
-							<div class="sendNftBtnBox">
-								<a href="#" class="blue_btn sendNftBtn">Send</a>
-							</div>
 						</div>
 					</div>
 				</div>
