@@ -1181,6 +1181,7 @@ li.blockChain_item:hover {
   justify-content: space-between;
   height: 46px;
   padding: 6px 10px;
+  color: #000;
 }
 
 .select_font .dropdown-menu {

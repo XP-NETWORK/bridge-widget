@@ -1,26 +1,19 @@
-import React, { Suspense } from "react";
-import ReactDOM from "react-dom";
-
-import "bootstrap/dist/css/bootstrap.min.css";
-import "semantic-ui-css/semantic.min.css";
-import App from "./App";
-import { Provider } from "react-redux";
-import store from "./store/store";
-import { Web3ReactProvider } from "@web3-react/core";
-import { Web3Provider } from "@ethersproject/providers";
-import Web3 from "web3";
-
-function getLibrary(provider) {
-  return new Web3(provider);
-}
+import React from 'react';
+import ReactDOM from 'react-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+import './Global.css';
+import './assets/css/global-responsive.css';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
+// Import Swiper styles
 
 ReactDOM.render(
   <React.StrictMode>
-    <Web3ReactProvider getLibrary={getLibrary}>
-      <Provider store={store}>
-        <App />
-      </Provider>
-    </Web3ReactProvider>
+    <App />
   </React.StrictMode>,
-  document.getElementById("root")
+  document.getElementById('root')
 );
+
+reportWebVitals();
