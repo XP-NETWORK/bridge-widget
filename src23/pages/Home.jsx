@@ -336,7 +336,7 @@ function Home() {
 						<Image src={Departure} className="chain"/> <span>Select departure chain</span> <Image src={Arrowdown} className="arrow_down"/>
 					</div>
 				</div>
-				<a href="#" className="connect_bridge blue_btn">Continue bridging <img src={Arrowlight}/></a>
+				<a href="#" className="connect_bridge">Continue bridging <img src={Arrowlight}/></a>
 			</div>
 			<div className="connect_bridge_tutorial">
 					<a href="#" className="tutorial_links col-g"><Image src={Video}/> Learn how to use NFT bridge</a>
@@ -364,19 +364,17 @@ function Home() {
 							</div>
 							<div className="seaViewnft">
 								<div className="searchNft">
-								<Dropdown>
-  <Dropdown.Toggle>
-  <span className="icon searchNftIcon"></span>
-  </Dropdown.Toggle>
-
-  <Dropdown.Menu>
-  <form action="#">
+									<div className="dropdown">
+										<button className="btn dropdown-toggle" type="button" id="searchNFT" data-bs-toggle="dropdown" aria-expanded="false">
+											<span className="icon searchNftIcon"></span>
+										</button>
+										<div className="dropdown-menu" aria-labelledby="searchNFT">
+											<form action="#">
 												<input type="search" id="NftsearchInp" placeholder="Search NFT"/>
 												<button className="searchBtn"></button>
 											</form>
-  </Dropdown.Menu>
-</Dropdown>
-									
+										</div>
+									</div>
 								</div>
 								<div className="viewNft">
 									<span className="icon viewNfBtn"></span>

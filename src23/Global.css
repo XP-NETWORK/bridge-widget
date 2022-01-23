@@ -1294,11 +1294,3 @@ a.help_icon:hover .qustion_icon {
   padding: 24px 30px;
   background: #4A515C;
 }
-.searchNft .btn-primary {
-  background: transparent;
-  border: 0;
-}
-
-.btn-check:active+.btn-primary:focus, .btn-check:checked+.btn-primary:focus, .btn-primary.active:focus, .btn-primary:active:focus, .show>.btn-primary.dropdown-toggle:focus {
-  box-shadow: none;
-}
