@@ -22,12 +22,9 @@ import nftimg_3 from '../assets/img/nftimages/nft_img_3.png';
 import nftimg_4 from '../assets/img/nftimages/nft_img_4.png';
 import nftimg_5 from '../assets/img/nftimages/nft_img_5.png';
 import power from "../assets/img/power.svg";
-import Ethereum from '../assets/img/nft/Ethereum.svg';
-import HECO from "../assets/img/nft/HECO.svg";
-import Elrond from "../assets/img/nft/Elrond.svg";
-import BSC from "../assets/img/nft/bsc.svg";
-import Cardano from "../assets/img/nft/Cardano.svg";
-import Algorand from "../assets/img/nft/Algorand.svg";
+
+
+
 
 function Home() {
     return (
@@ -83,7 +80,7 @@ function Home() {
 											<span className="icon selectNfticon"></span>
 										</div>
 										<div className="blockChainItem">
-											<img src={Ethereum} alt="Ethereum"/> Ethereum
+											<img src="../assets/img/nft/Ethereum.svg" alt="Ethereum"/> Ethereum
 										</div>
 									</li>
 									<li className="blockChain_item">
@@ -92,7 +89,7 @@ function Home() {
 											<span className="icon selectNfticon"></span>
 										</div>
 										<div className="blockChainItem">
-											<img src={HECO} alt="HECO"/> HECO
+											<img src="../assets/img/nft/HECO.svg" alt="HECO"/> HECO
 										</div>
 									</li>
 									<li className="blockChain_item">
@@ -101,7 +98,7 @@ function Home() {
 											<span className="icon selectNfticon"></span>
 										</div>
 										<div className="blockChainItem">
-											<img src={Elrond} alt="Elrond"/> Elrond
+											<img src="../assets/img/nft/Elrond.svg" alt="Elrond"/> Elrond
 										</div>
 									</li>
 									<li className="blockChain_item">
@@ -110,7 +107,7 @@ function Home() {
 											<span className="icon selectNfticon"></span>
 										</div>
 										<div className="blockChainItem">
-											<img src={BSC} alt="BSC"/> BSC
+											<img src="../assets/img/nft/bsc.svg" alt="BSC"/> BSC
 										</div>
 									</li>
 									<li className="blockChain_item">
@@ -119,7 +116,7 @@ function Home() {
 											<span className="icon selectNfticon"></span>
 										</div>
 										<div className="blockChainItem">
-											<img src={Cardano} alt="Cardano"/> Cardano
+											<img src="../assets/img/nft/Cardano.svg" alt="Cardano"/> Cardano
 										</div>
 									</li>
 									<li className="blockChain_item">
@@ -128,7 +125,7 @@ function Home() {
 											<span className="icon selectNfticon"></span>
 										</div>
 										<div className="blockChainItem">
-											<img src={Algorand} alt="Algorand"/> Algorand
+											<img src="../assets/img/nft/Algorand.svg" alt="Algorand"/> Algorand
 										</div>
 									</li>
 								</ul>
